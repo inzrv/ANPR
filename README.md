@@ -7,7 +7,7 @@ Currently, neural networks or machine learning are not used here. Number-plates 
 
 ## Algorithm description
 
-As input, the algorithm expects an image of size 512x512, which is stored in ```cv::Mat```. To prepare your image, you can use the ```prepare()``` function.
+As input, the algorithm expects an image of size 512x512, which is stored in ```cv::Mat```. To prepare your image, you can use the ```anpr::prepare()``` function.
 
 <img src="https://github.com/inzrv/ANPR/blob/main/examples/source.png" width="400"/> 
 
@@ -40,11 +40,3 @@ Delete the contours that don't look like rectangles. This is an interesting part
   <img src="https://github.com/inzrv/ANPR/blob/main/examples/good_contours.png" width="400" />
   <img src="https://github.com/inzrv/ANPR/blob/main/examples/plate.png" width="400" /> 
 </p>
-
-
-
-
-
-
-
-
