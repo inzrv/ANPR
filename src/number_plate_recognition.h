@@ -9,7 +9,7 @@
 namespace anpr {
     class NumberRecognition {
     public:
-        explicit NumberRecognition(const cv::Mat &image, const std::string &debugPath = "../debug/");
+        explicit NumberRecognition(const cv::Mat &image, const std::string &debugPath = "../debug_images/");
 
         void detectPlate();
 
